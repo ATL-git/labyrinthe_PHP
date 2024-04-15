@@ -1,0 +1,98 @@
+h1 {
+    text-align: center;
+    margin: 50px;
+    font-size: 40px;
+
+}
+
+.formArrowDir {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+table {
+    margin: auto;
+    margin-top: 70px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    border: 0.5px solid black;
+
+}
+
+table td {
+    color: transparent;
+}
+
+.upNdDown {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.leftDir input {
+    background-image: url("./image/left.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    color: transparent;
+}
+
+.rightDir input {
+    background-image: url("./image/right.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    color: transparent;
+}
+
+.upDir input {
+    background-image: url("./image/up.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    color: transparent;
+}
+
+.downDir input {
+    background-image: url("./image/down.png");
+    background-size: cover;
+    color: transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.leftDir {
+    display: flex;
+    align-items: center;
+}
+
+.rightDir {
+    display: flex;
+    align-items: center;
+}
+
+.rst {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.rst input {
+    border-radius: 10px;
+    background-color: orange;
+    padding: 10px;
+
+}
+
+.winText {
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+
+}
