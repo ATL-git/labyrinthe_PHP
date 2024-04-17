@@ -47,8 +47,6 @@
         $_SESSION['position'] = [0, 0];
     }
 
-
-
     if (!isset($_SESSION['position'])) {
         $_SESSION['position'] = [0, 0];
     }
